@@ -1,0 +1,26 @@
+{
+    "net.minecraft.class_490": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 37,
+                "bottom": -13
+            },
+            "SORT": {
+                "horizontalOffset": 1,
+                "bottom": 17
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 1,
+                "bottom": 17
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 1,
+                "bottom": 17
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 112,
+                "top": 3
+            }
+        }
+    }
+}

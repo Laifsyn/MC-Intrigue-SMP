@@ -1,0 +1,103 @@
+{
+	"health": {
+		// Show vanilla hearts
+		"health_vanilla": true,
+		/* Colors for every 10 hearts (not counting the default red)
+		   All values are written as hexadecimal RGB color in '#RRGGBB' format
+		*/
+		"health_colors": [
+			"#8C0C2D",
+			"#ED9DD2",
+			"#A54B0E",
+			"#D67432",
+			"#D8B764",
+			"#097F03",
+			"#6858A5",
+			"#2582CE",
+			"#67A9C6",
+			"#CECEF4"
+		],
+		/* Two alternating colors when poisoned
+		   There can be one color in case vanilla poisoned heart is wanted
+		*/
+		"health_poison_colors": [
+			"#6D9126",
+			"#9CC911"
+		],
+		/* Two alternating colors when withered
+		   There can be one color in case vanilla withered heart is wanted
+		*/
+		"health_wither_colors": [
+			"#474647",
+			"#262833"
+		],
+		/* Two alternating colors when freezing
+		   There can be one color in case vanilla frozen heart is wanted
+		*/
+		"health_frozen_colors": [
+			"#3E70E6",
+			"#873EE6"
+		]
+	},
+	"absorption": {
+		// Show vanilla hearts
+		"absorption_vanilla": true,
+		/* Colors for every 10 hearts (not counting the default yellow)
+		   All values are written as hexadecimal RGB color in '#RRGGBB' format
+		*/
+		"absorption_colors": [
+			"#FFDF00",
+			"#A0FFAF",
+			"#00DD83",
+			"#33A802",
+			"#AAFFFA",
+			"#00EAD9",
+			"#009BE8",
+			"#CB4EE5",
+			"#F93099",
+			"#C8D9DB"
+		],
+		// Two alternating colors when poisoned
+		"absorption_poison_colors": [
+			"#C0DD43",
+			"#71A044"
+		],
+		// Two alternating colors when withered
+		"absorption_wither_colors": [
+			"#9B9180",
+			"#73625C"
+		],
+		// Two alternating colors when freezing
+		"absorption_frozen_colors": [
+			"#55D0E5",
+			"#24C972"
+		]
+	},
+	"qol": {
+		/* Display absorption in the same row as health
+		   Absorption hearts start directly after the last health heart.
+		*/
+		"absorption_over_health": false,
+		"counter": {
+			/* Visualizes health/absorption to left of the hearts.
+			   Allowed Values: OFF, ALWAYS, ON_CHANGE
+			*/
+			"display_mode": "OFF",
+			/* Text displayed next to health. Minecraft chat color codes are allowed.
+			   Available variables:
+			       "[HEALTH]": Current health.
+			       "[MAX]": Max health.
+			       "[HEARTS]": Current health in hearts.
+			       "[MAX_HEARTS]": Max health in hearts.
+			*/
+			"text_health": "\u00a74[HEALTH]\u00a77/\u00a72[MAX]",
+			/* Text displayed next to absorption. Minecraft chat color codes are allowed.
+			   In case 'absorption_over_health' is true, this text is displayed at the same position as or left of 'text_health'.
+			   Available variables:
+			      "[ABSORPTION]": Current absorption.
+			      "[HEARTS]": Current absorption in hearts.
+			*/
+			"text_absorption": "\u00a76[ABSORPTION]"
+		}
+	}
+}

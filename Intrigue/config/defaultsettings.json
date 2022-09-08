@@ -1,0 +1,14 @@
+{
+  "version": "3.5.2",
+  "prevVersion": "3.0.2",
+  "initPopup": true,
+  "generatedBy": "bec2d639-77de-48d4-af53-8963bd30ed48",
+  "hashes": {
+    "Default/servers.dat": "8833B4191585CD5B04EBB2AA3409BC65",
+    "Default/keys.txt": "238026299846250F46EF2A4E57C7C99B",
+    "Default/options.txt": "90284182477939BD21553B5938DF1C99",
+    "Default/options.amecsapi.txt": "ADB428285283634C6EA407819978F718"
+  },
+  "mainProfile": "Default",
+  "initially_created": "28.07.2022 16:52:11"
+}

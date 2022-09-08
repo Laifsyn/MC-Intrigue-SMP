@@ -1,0 +1,17 @@
+{
+  "time": true,
+  "timeStr": "[HH:mm:ss]",
+  "timeFormat": "",
+  "timeColor": 9886195,
+  "hover": false,
+  "hoverStr": "yyyy dd, MM, @ HH:mm:ss.SSSS",
+  "counter": true,
+  "counterStr": "(x$)",
+  "counterColor": 16777045,
+  "saveChat": false,
+  "boundary": true,
+  "boundaryStr": "\u003c]\u003d\u003d\u003d---{ SESSION BOUNDARY LINE }---\u003d\u003d\u003d[\u003e",
+  "boundaryColor": 43690,
+  "nameStr": "\u003c$\u003e",
+  "maxMsgs": 1024
+}

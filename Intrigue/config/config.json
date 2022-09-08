@@ -1,0 +1,20 @@
+{
+  "armorEnable": true,
+  "armorHideWhenEmpty": true,
+  "armorHideEmptySlots": true,
+  "toughnessEnable": true,
+  "toughnessHideWhenEmpty": true,
+  "toughnessHideEmptySlots": true,
+  "armorBarOffset": 0,
+  "toughnessBarOffset": 0,
+  "oneHealthBar": false,
+  "colors": [
+    "#e3e3ff",
+    "#a1a1ff",
+    "#FFC747",
+    "#27FFE3",
+    "#00FF00",
+    "#7F00FF",
+    "#7F00FF"
+  ]
+}

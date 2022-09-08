@@ -1,0 +1,37 @@
+{
+    "ModSettings": {
+        "for_modpack_devs": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "tool_damage_threshold": 5,
+        "threshold_unit": "PERCENTAGE"
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "LEFT_SHIFT,R,C"
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": "LEFT_CONTROL,R,G"
+            }
+        }
+    },
+    "Modpacks": {
+        "gen_test_arena": {
+            "main": {
+                "keys": "R,H,C"
+            }
+        }
+    }
+}

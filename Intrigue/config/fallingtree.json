@@ -1,0 +1,49 @@
+{
+  "trees": {
+    "allowedLogs": [],
+    "deniedLogs": [],
+    "allowedLeaves": [],
+    "allowedNonDecayLeaves": [],
+    "deniedLeaves": [],
+    "breakMode": "INSTANTANEOUS",
+    "detectionMode": "WHOLE_TREE",
+    "maxScanSize": 500,
+    "maxSize": 250,
+    "maxSizeAction": "CUT",
+    "breakOrder": "FURTHEST_FIRST",
+    "minimumLeavesAroundRequired": 1,
+    "includePersistentLeavesInRequiredCount": true,
+    "treeBreaking": true,
+    "leavesBreaking": false,
+    "leavesBreakingForceRadius": 0,
+    "allowMixedLogs": false,
+    "breakNetherTreeWarts": true,
+    "instantlyBreakWarts": false,
+    "searchAreaRadius": -1,
+    "allowedAdjacentBlocks": [],
+    "adjacentStopMode": "STOP_ALL"
+  },
+  "tools": {
+    "allowed": [],
+    "denied": [
+      "minecraft:wooden_axe",
+      "minecraft:stone_axe"
+    ],
+    "preserve": true,
+    "ignoreTools": false,
+    "damageMultiplicand": 1.66,
+    "damageRounding": "ROUND_DOWN",
+    "speedMultiplicand": 0.33
+  },
+  "player": {
+    "allowedTags": []
+  },
+  "enchantment": {
+    "registerEnchant": true,
+    "registerSpecificEnchant": false,
+    "hideEnchant": false
+  },
+  "sneakMode": "SNEAK_ENABLE",
+  "breakInCreative": false,
+  "notificationMode": "CHAT"
+}
